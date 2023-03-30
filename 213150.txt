@@ -1,82 +1,34 @@
-PS C:\Users\Filip\OneDrive\Desktop\SI_2023_lab1_213150> git log
-commit b995cf6624170e9848fefe3b6eef02868e17a366 (HEAD -> master, origin/master, origin/bug3, bug3)
-Merge: 05c6368 91ec301
-Author: Filip Ilievski <filievski15@gmail.com>
-Date:   Thu Mar 30 14:37:40 2023 +0200
+4. Работам на терминалот на InteliJ и го иницијализирав директориумот со git init.
+5. Го поврзав со командата git remote add origin https://github.com/ilievskyy/SI_2023_lab1_213150
+6. - git add README.md
+- git commit -m "Initial commit"
+- git branch -M master
+- git push -u origin master
 
-    Merge remote-tracking branch 'origin/bug3' into bug3
+7. git add SILab1.java
+8. git push -u origin master
+9. git checkout master - проверка дали сме на master
+- git branch bug1
+- git branch bug2
+- git branch bug3
+- git branch - проверка  
+10. -git checkout bug1
+11.<= -> < (брои еден број плус со еднаквото, затоа се брише)
+12. -git checkout bug2
+13. наместо == во условот треба да пишува != бидејќи на поставениот начин бара парни, а ние сакаме да не биде делив со 2 за да бара непарни
+14. git checkout bug3
+15. += наместо *=, и sum=0 наместо sum=1.
+16. - git push origin bug1
+- git push origin bug2
+- git push origin bug3
+17. git checkout master
+18. -git merge bug1 - fast forwarding
+19. git push
+20. -git merge bug2 -ort 
+21. -git push
+22. -git checkout bug3
+23. -git rebase master
+24. -git checkout master
+25. -git merge bug3 (non-fast forward)
+26. -git push 
 
-commit 05c6368e7190735e76fb3f2ac05546959048da77
-Author: Filip Ilievski <filievski15@gmail.com>
-Date:   Thu Mar 30 14:32:51 2023 +0200
-
-    Rebase bug3
-
-commit d7ef988eb34c5d13214ac245ebc6f05ee3bfc9c2
-Author: Filip Ilievski <filievski15@gmail.com>
-Date:   Thu Mar 30 14:04:14 2023 +0200
-
-    Fix method sumEvenNumbers
-
-commit 751939d27c7d6be501555c01f1d9e4063ce761ca
-Merge: ca63d89 f581fb7
-Author: Filip Ilievski <filievski15@gmail.com>
-Date:   Thu Mar 30 14:12:42 2023 +0200
-
-    Merge branch 'bug2'
-
-commit 05c6368e7190735e76fb3f2ac05546959048da77
-Author: Filip Ilievski <filievski15@gmail.com>
-Date:   Thu Mar 30 14:32:51 2023 +0200
-
-    Rebase bug3
-
-commit d7ef988eb34c5d13214ac245ebc6f05ee3bfc9c2
-Author: Filip Ilievski <filievski15@gmail.com>
-Date:   Thu Mar 30 14:04:14 2023 +0200
-
-    Fix method sumEvenNumbers
-
-commit 751939d27c7d6be501555c01f1d9e4063ce761ca
-Merge: ca63d89 f581fb7
-Author: Filip Ilievski <filievski15@gmail.com>
-Date:   Thu Mar 30 14:12:42 2023 +0200
-
-    Merge branch 'bug2'
-
-commit 91ec301549004565766c13e2df7b7a1f587bb409
-Author: Filip Ilievski <filievski15@gmail.com>
-Date:   Thu Mar 30 14:04:14 2023 +0200
-
-    Fix method sumEvenNumbers
-
-commit f581fb799004a8510000ed2c8b308c7ed10267b2 (origin/bug2, bug2)
-Author: Filip Ilievski <filievski15@gmail.com>
-Date:   Thu Mar 30 14:01:59 2023 +0200
-
-    Fix wrong condition in filterOddNumbers
-
-commit 0b85ac28a921225a744bb26aa0127d0179a5912b
-Author: Filip Ilievski <filievski15@gmail.com>
-Date:   Thu Mar 30 13:57:46 2023 +0200
-
-    Fix wrong condition in filterOddNumbers
-
-commit ca63d89804fa7c30a814c891b62b2a4f3d62ecd1 (origin/bug1, bug1)
-Author: Filip Ilievski <filievski15@gmail.com>
-Date:   Thu Mar 30 13:42:53 2023 +0200
-
-    Fix wrong loop for reading
-
-commit ebb4a63ae99ccedfb89125bc2a0bda72bfffe73f
-Author: Filip Ilievski <filievski15@gmail.com>
-Date:   Thu Mar 30 12:45:25 2023 +0200
-
-    Add java class
-
-commit 26a2621330384af44346ef0f7cd37672026f77c6
-Author: Filip Ilievski <filievski15@gmail.com>
-Date:   Thu Mar 30 12:33:43 2023 +0200
-
-    Initial commit
-(END)
